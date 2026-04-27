@@ -1,0 +1,11 @@
+{
+  "name": "batch_summary.csv",
+  "columns": [
+    "batch_no",
+    "product_model",
+    "total_count",
+    "pass_count",
+    "fail_count",
+    "yield_rate"
+  ]
+}

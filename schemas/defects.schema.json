@@ -1,0 +1,18 @@
+{
+  "name": "defects.csv",
+  "primary_key": ["item_id", "failure_code"],
+  "columns": [
+    "item_id",
+    "run_id",
+    "sn",
+    "station_id",
+    "item_name",
+    "failure_code",
+    "failure_message",
+    "measured_value",
+    "lower_limit",
+    "upper_limit",
+    "unit",
+    "test_time"
+  ]
+}

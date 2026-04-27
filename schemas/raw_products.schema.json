@@ -1,0 +1,15 @@
+{
+  "name": "raw_products.csv",
+  "primary_key": ["run_id"],
+  "columns": [
+    "run_id",
+    "sn",
+    "batch_no",
+    "product_model",
+    "line_id",
+    "equipment_id",
+    "start_time",
+    "end_time",
+    "simulated_sort_result"
+  ]
+}

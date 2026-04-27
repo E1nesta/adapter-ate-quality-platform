@@ -1,0 +1,94 @@
+{
+  "items": {
+    "hipot_ac_withstand": {
+      "station_id": "HIPOT",
+      "lower_limit": 3000.0,
+      "upper_limit": 5000.0,
+      "unit": "V",
+      "required": true,
+      "failure_code_low": "HIPOT_AC_WITHSTAND_LOW",
+      "failure_code_high": "HIPOT_AC_WITHSTAND_HIGH"
+    },
+    "hipot_insulation_resistance": {
+      "station_id": "HIPOT",
+      "lower_limit": 50.0,
+      "upper_limit": 9999.0,
+      "unit": "MOhm",
+      "required": true,
+      "failure_code_low": "HIPOT_INSULATION_RESISTANCE_LOW",
+      "failure_code_high": "HIPOT_INSULATION_RESISTANCE_HIGH"
+    },
+    "hipot_leakage_current": {
+      "station_id": "HIPOT",
+      "lower_limit": 0.0,
+      "upper_limit": 0.5,
+      "unit": "mA",
+      "required": true,
+      "failure_code_low": "HIPOT_LEAKAGE_CURRENT_LOW",
+      "failure_code_high": "HIPOT_LEAKAGE_CURRENT_HIGH"
+    },
+    "output_voltage": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 11.8,
+      "upper_limit": 12.2,
+      "unit": "V",
+      "required": true,
+      "failure_code_low": "OUTPUT_VOLTAGE_LOW",
+      "failure_code_high": "OUTPUT_VOLTAGE_HIGH"
+    },
+    "output_current": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 1.8,
+      "upper_limit": 2.2,
+      "unit": "A",
+      "required": true,
+      "failure_code_low": "OUTPUT_CURRENT_LOW",
+      "failure_code_high": "OUTPUT_CURRENT_HIGH"
+    },
+    "efficiency": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 88.0,
+      "upper_limit": 100.0,
+      "unit": "%",
+      "required": true,
+      "failure_code_low": "EFFICIENCY_LOW",
+      "failure_code_high": "EFFICIENCY_HIGH"
+    },
+    "ripple": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 0.0,
+      "upper_limit": 120.0,
+      "unit": "mV",
+      "required": true,
+      "failure_code_low": "RIPPLE_LOW",
+      "failure_code_high": "RIPPLE_HIGH"
+    },
+    "temperature": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 0.0,
+      "upper_limit": 60.0,
+      "unit": "C",
+      "required": true,
+      "failure_code_low": "TEMPERATURE_LOW",
+      "failure_code_high": "TEMPERATURE_HIGH"
+    },
+    "ocp_trip_current": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 2.4,
+      "upper_limit": 3.2,
+      "unit": "A",
+      "required": true,
+      "failure_code_low": "OCP_TRIP_CURRENT_LOW",
+      "failure_code_high": "OCP_TRIP_CURRENT_HIGH"
+    },
+    "scp_response_time": {
+      "station_id": "PERFORMANCE",
+      "lower_limit": 0.0,
+      "upper_limit": 50.0,
+      "unit": "ms",
+      "required": true,
+      "failure_code_low": "SCP_RESPONSE_TIME_LOW",
+      "failure_code_high": "SCP_RESPONSE_TIME_HIGH"
+    }
+  }
+}

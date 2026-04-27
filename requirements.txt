@@ -1,0 +1,16 @@
+# Data processing and reports
+pandas>=2.2
+
+# Query API
+Flask>=3.0
+
+# MySQL persistence
+PyMySQL>=1.1
+cryptography>=42.0
+
+# Simple AI modeling
+scikit-learn>=1.5
+joblib>=1.4
+
+# Development and verification
+pytest>=8.0

@@ -1,0 +1,9 @@
+{
+  "name": "defect_summary.csv",
+  "columns": [
+    "station_id",
+    "item_name",
+    "failure_code",
+    "defect_count"
+  ]
+}

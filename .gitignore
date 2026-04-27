@@ -1,0 +1,36 @@
+.venv/
+.venv-win/
+__pycache__/
+*.py[cod]
+
+# Local agent/workflow internals
+.codex/
+AGENTS.md
+openspec/
+docs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+data/
+
+reports/
+
+models/
+
+.pytest_cache/

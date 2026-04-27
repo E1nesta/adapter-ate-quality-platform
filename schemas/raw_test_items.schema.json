@@ -1,0 +1,17 @@
+{
+  "name": "raw_test_items.csv",
+  "primary_key": ["item_id"],
+  "foreign_key": ["run_id", "sn"],
+  "columns": [
+    "item_id",
+    "run_id",
+    "sn",
+    "station_id",
+    "item_name",
+    "measured_value",
+    "lower_limit",
+    "upper_limit",
+    "unit",
+    "test_time"
+  ]
+}

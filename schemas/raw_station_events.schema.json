@@ -1,0 +1,14 @@
+{
+  "name": "raw_station_events.csv",
+  "primary_key": ["event_id"],
+  "foreign_key": ["run_id", "sn"],
+  "columns": [
+    "event_id",
+    "run_id",
+    "sn",
+    "station_id",
+    "event_type",
+    "event_message",
+    "event_time"
+  ]
+}

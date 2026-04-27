@@ -1,0 +1,10 @@
+{
+  "name": "daily_summary.csv",
+  "columns": [
+    "date",
+    "total_count",
+    "pass_count",
+    "fail_count",
+    "yield_rate"
+  ]
+}
