@@ -58,6 +58,7 @@ contracts.py              CSV 字段契约
 - Python 3.10+
 - Windows PowerShell
 - 支持 C++17 的编译器：Windows 推荐 Visual Studio Build Tools；也可使用 MinGW g++
+- Linux/WSL 需要 `python3-venv` 或 `virtualenv`
 - MySQL 可选，用于追溯数据导入和 API 查询
 
 ## 快速运行
